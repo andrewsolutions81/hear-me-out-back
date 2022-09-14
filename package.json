@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/andrewsolutions81/hear-me-out-back#readme",
   "dependencies": {
+    "dotenv": "^16.0.2",
     "mongoose": "^6.5.2"
   },
   "devDependencies": {
