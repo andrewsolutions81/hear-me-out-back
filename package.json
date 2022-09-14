@@ -4,6 +4,7 @@
   "description": "Hear Me Out (HMO) backend repository using Mongoose data base, Mongoose and express.",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/andrewsolutions81/hear-me-out-back/issues"
   },
-  "homepage": "https://github.com/andrewsolutions81/hear-me-out-back#readme"
+  "homepage": "https://github.com/andrewsolutions81/hear-me-out-back#readme",
+  "dependencies": {
+    "mongoose": "^6.5.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
 }
